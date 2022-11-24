@@ -1,0 +1,41 @@
+.container{
+    margin: 50px auto;
+    max-width: 1200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 22px;
+}
+.product:hover{
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid rgb(24, 24, 24);
+    transition: 0.4s;
+}
+.product{
+    position: relative;
+}
+.product span{
+    display: block;
+    padding: 5px;
+}
+.product-title{
+    font-size: 18px;
+}
+.product-descr, .product-price{
+    font-size: 13px;
+}
+.img-product{
+    width: 100%;
+    height: 290px;
+    object-fit: contain;
+}
+.add-cart{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
